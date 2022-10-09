@@ -38,8 +38,11 @@ button:hover {
   }
   h1 {
     font-size: 1rem;
+    margin: 0px;
   }
   .card-grid {
     margin-top: 20px;
+    row-gap: 5px;
+    column-gap: 20px;
   }
 }
