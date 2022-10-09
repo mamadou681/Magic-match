@@ -23,7 +23,7 @@
 
 .card .back {
   transition: all 0.2s ease-in;
-  transition-delay: 0.2s;
+  transition-delay: 0.2;
 }
 .flipped .back {
   transform: rotateY(90deg);

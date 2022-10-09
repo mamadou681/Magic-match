@@ -31,3 +31,9 @@ button:hover {
     width: 500px;
   }
 }
+
+@media screen and (orientation: landscape) {
+  .App {
+    height: 765px;
+  }
+}
