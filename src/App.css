@@ -32,8 +32,14 @@ button:hover {
   }
 }
 
-@media screen and (orientation: landscape) {
+@media screen and (max-width: 917px) and (orientation: landscape) {
   .App {
-    height: 765px;
+    width: 300px;
+  }
+  h1 {
+    font-size: 1rem;
+  }
+  .card-grid {
+    margin-top: 20px;
   }
 }
